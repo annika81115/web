@@ -1,0 +1,7 @@
+body {
+	margin: 0;
+	background-color: #2424;
+	/*background-image: url('$lib/background.svg');*/
+	color: #333;
+	font-family: sans-serif;
+}

@@ -1,8 +1,7 @@
 <div>
 	<footer>
-		<a href="/PageOne">Foote One</a>
-		<a href="/PageTwo">Footer Two</a>
-		<a href="/PageThree">Footer Three</a>
+		<a href="/impressum">Impressum</a>
+		<a href="/contact">Kontakt</a>
 	</footer>
 </div>
 
@@ -11,8 +10,12 @@
   		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
-		gap: 20px;
-		margin-right: 50px;
+		gap: 5vw;
+		margin-right: 5vw;
+		position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 20px;
 	}
 
 	a {

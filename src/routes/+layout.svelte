@@ -1,10 +1,8 @@
 <script>
-	import Navbar from "$lib/components/Navbar.svelte";
 	import Footer from "$lib/components/Footer.svelte"
+	import '$lib/styles/style.css'
 </script>
 
-
-<Navbar />
 <div class="app-container">
 	<slot></slot>
 </div>
@@ -12,8 +10,6 @@
 <Footer />
 <div class="app-container">
 </div>
-
-
 
 <style>
 	.app-container{
