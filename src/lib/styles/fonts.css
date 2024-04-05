@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Neoneon';
+  src: url('/lib/fonts/Neoneon.otf') format('opentype');
+  font-weight: normal; /* Gewicht der Schriftart */
+  font-style: normal; /* Stil der Schriftart */
+}

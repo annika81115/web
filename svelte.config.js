@@ -18,6 +18,7 @@ const config = {
 		mdsvex({
 			extensions: ['.md'],
 			layout: {
+				aboutJune: 'src/lib/layouts/aboutJune.svelte'
 				about: 'src/lib/layouts/about.svelte'
 			}
 		})

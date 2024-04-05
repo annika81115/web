@@ -5,17 +5,29 @@
 
 <Navbar />
 
-<h1>Blog</h1>
+<div class="content">
 
-<ul>
-	{#each data.posts as post}
-		<li>
-			<h2>
-				<a href={post.path}>
-					{post.meta.title}
-				</a>
-			</h2>
-			Published {post.meta.date}
-		</li>
-	{/each}
-</ul>
+	<h1>Zungenprickler</h1>
+
+	<ul>
+		{#each data.posts as post}
+			
+				<h2>
+					<a href={post.path}>
+						{post.meta.title}
+					</a>
+				</h2>
+				{post.meta.caption}
+			
+		{/each}
+	</ul>
+</div>
+
+<style>
+	.content {
+		text-align: center;
+		position: absolute;
+		top: 5vw;
+		width: 65vw;
+	}
+</style>

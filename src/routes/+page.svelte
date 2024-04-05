@@ -1,114 +1,149 @@
-<body>
-  <div class="container">
-     <div class="imageContainer" id="image">
-      <img src="/pic_home.JPG" alt="Beispielbild">
+<!-- YourComponent.svelte -->
+<div class="container">
+  <div class="imageContainer">
+    <img class="big" src="/pic_home.JPG" alt="Beispielbild">
+    <div class="overlay">
+      <img src="/schrift.png">
     </div>
+  </div>
   <div class="boxContainer">
-    <div class="box" id="box1">
-      <a href="page1.html">
-        <h2>Page 1</h2>
-        <p>Description of Page 1</p>
+    <div class="boxPurple" id="box1">
+      <a href="/sektSpätWhat">
+        <h2>Sekt Spät What?</h2>
       </a>
     </div>
-    <div class="box" id="box2">
-      <a href="page2.html">
-        <h2>Page 2</h2>
-        <p>Description of Page 2</p>
+    <div class="boxGreen" id="box2">
+      <a href="/korkenknallen">
+        <h2>Hörst du die Korken? Sie knallen im Chor</h2>
       </a>
     </div>
-    <div class="box" id="box3">
-      <a href="page2.html">
-        <h2>Page 2</h2>
-        <p>Description of Page 2</p>
+    <div class="boxPink" id="box3">
+      <a href="/aboutJune">
+        <h2>About June</h2>
       </a>
     </div>
-     <div class="box" id="box4">
-      <a href="page1.html">
-        <h2>Page 1</h2>
-        <p>Description of Page 1</p>
+    <div class="boxPurple" id="box4">
+      <a href="/lyrics">
+        <h2>Texte, die so schön prikeln auf der Zunge</h2>
       </a>
     </div>
-    <div class="box" id="box5">
-      <a href="page2.html">
-        <h2>Page 2</h2>
-        <p>Description of Page 2</p>
+    <div class="boxPurple" id="box5">
+      <a href="/impressum">
+        <h2>Impressum</h2>
       </a>
     </div>
-    <div class="box" id="box6">
-      <a href="page2.html">
-        <h2>Page 2</h2>
-        <p>Description of Page 2</p>
+    <div class="boxPink" id="box6">
+      <a href="/contact">
+        <h2>Flaschenpost</h2>
       </a>
     </div>
   </div>
-  </div>
-</body>
+</div>
 
 <style>
-  body {
-    margin: 0;
-    padding: 0;
+  /* CSS-Stil für den Container */
+  .container {
+    display: flex;
+    flex-direction: row; /* Horizontale Anordnung der Elemente */
+    height: 90vh; /* Höhe des gesamten Fensters */
+    padding: 20px; /* Abstand um den Container herum */
   }
 
   .imageContainer {
-    background-color: #ddd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    float: left;
-    height: 90vh;
-    overflow: hidden;
+    width: 50%; /* Bildcontainer nimmt die Hälfte der Breite ein */
     position: relative;
-    border-radius: 50px;
-    left: 3vw;
-    top: 4vh;
   }
 
-  img {
-    width:  100%;
-    height: auto;
-    display: block; /* Bild als Blockelement anzeigen */
-    position: absolute; /* Absolute Positionierung innerhalb des Containers */
-    top: -50px; /* Oben ausrichten */
-    left: 0;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: row;
+  .big {
+    width: 100%;
     height: 90vh;
+    display: block;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: cover; /* Bild wird in den Container eingepasst */
   }
 
-  .container > div {
-    width: 50%; /* Jeder Container nimmt die Hälfte der Breite des Elterncontainers ein */
-    box-sizing: border-box; /* Berücksichtigt die Polsterung und den Rand in der Breite */
+  .overlay {
+    position: absolute; /* Absolute Positionierung relativ zum Bildcontainer */
+    bottom: 0; /* Unten ausrichten */
+    left: 0; /* Links ausrichten */
+    width: 100%; /* Vollständige Breite */
+    background-color: rgba(184, 232, 156, 1); /* Halbtransparenter Hintergrund */
+    color: white; /* Textfarbe */
+    padding: 20px; /* Innenabstand */
+    box-sizing: border-box; /* Berücksichtigt den Padding im Bereich */
+    text-align: center; /* Zentriert den Text horizontal */
+    transform: translateY(-50%); /* Zentriert den Text vertikal */
+  }
+
+  .overlay img{
+    width: 90%;
+    height: auto; 
   }
 
   .boxContainer {
+    width: 50%; /* Boxencontainer nimmt die Hälfte der Breite ein */
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap; /* Zeilenumbruch bei Bedarf */
+    justify-content: center; /* Zentriert die Boxen horizontal */
+    gap: 20px; /* Abstand zwischen den Boxen */
+  }
+
+  .boxGreen,
+  .boxPink,
+  .boxPurple {
+    flex: 0 1 calc(33.33% - 20px); /* Setzt die Breite der Boxen auf ein Drittel der Breite des Containers */
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #333;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    float: right;
   }
 
-  .box {
-    width: 200px;
-    height: 150px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    margin: 20px;
-    text-align: center;
-    padding: 20px;
+  .boxGreen {
+    background-color: #B8E89C;
   }
 
-  .box:hover {
-    background-color: #e0e0e0;
+  .boxPink {
+    background-color: #d13caa;
   }
 
-  .box a {
+  .boxPurple {
+    background-color: #b77beb;
+  }
+
+  .boxGreen:hover {
+    background-color: #8bda5e;
+  }
+
+  .boxPink:hover {
+    background-color: #c52e9e;
+  }
+
+  .boxPurple:hover {
+    background-color: #ab65e8;
+  }
+
+  a {
+    color: inherit;
     text-decoration: none;
-    color: #333;
+  }
+
+  /* Media Query für kleinere Bildschirme */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Vertikale Anordnung der Elemente */
+      align-items: center; /* Horizontale Zentrierung */
+    }
+
+    .imageContainer,
+    .boxContainer {
+      width: 100%; /* Vollständige Breite für kleinere Bildschirme */
+      margin-bottom: 20px; /* Abstand zwischen den Containern */
+    }
   }
 </style>
