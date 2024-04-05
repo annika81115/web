@@ -1,10 +1,8 @@
 <body>
   <div class="container">
      <div class="imageContainer" id="image">
-    <a href="page2.html">
-      <h2>Hallo</h2>
-    </a>
-  </div>
+      <img src="/pic_home.JPG" alt="Beispielbild">
+    </div>
   <div class="boxContainer">
     <div class="box" id="box1">
       <a href="page1.html">
@@ -52,6 +50,30 @@
     padding: 0;
   }
 
+  .imageContainer {
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+    left: 3vw;
+    top: 4vh;
+  }
+
+  img {
+    width:  100%;
+    height: auto;
+    display: block; /* Bild als Blockelement anzeigen */
+    position: absolute; /* Absolute Positionierung innerhalb des Containers */
+    top: -50px; /* Oben ausrichten */
+    left: 0;
+  }
+
   .container {
     display: flex;
     flex-direction: row;
@@ -59,9 +81,9 @@
   }
 
   .container > div {
-  width: 50%; /* Jeder Container nimmt die Hälfte der Breite des Elterncontainers ein */
-  box-sizing: border-box; /* Berücksichtigt die Polsterung und den Rand in der Breite */
-}
+    width: 50%; /* Jeder Container nimmt die Hälfte der Breite des Elterncontainers ein */
+    box-sizing: border-box; /* Berücksichtigt die Polsterung und den Rand in der Breite */
+  }
 
   .boxContainer {
     display: flex;
@@ -88,16 +110,5 @@
   .box a {
     text-decoration: none;
     color: #333;
-  }
-
-  .imageContainer {
-    background-color: #ddd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    float: left;
-    width: 80vw;
-    min-width: 500px;
   }
 </style>

@@ -10,8 +10,8 @@
   		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
-		gap: 5vw;
-		margin-right: 5vw;
+		gap: 2vw;
+		margin-right: 2vw;
 		position: fixed;
         bottom: 0;
         right: 0;
@@ -21,10 +21,12 @@
 	a {
 		color: #FFF;
 		text-decoration: none;
+		padding: 0.5vh 0.5vw; 
+        border-radius: 5px; 
 	}
 
 	a:hover {
-		text-decoration: underline;
 		cursor: pointer;
+		background: #2424;
 	}
 </style>
