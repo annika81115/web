@@ -39,8 +39,6 @@
 	    border-radius: 50px;
 	    overflow: hidden;
 	    object-fit: cover;
+	    border: 2px solid #B8E89C;
 	}
-
-
-
 </style>

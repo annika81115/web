@@ -63,16 +63,20 @@
 		color: #FFF;
 		text-decoration: none;
 		padding: 1vh 1vw; 
+		border-radius: 5px;
+		border: 2px solid #d13caa; /* damit die einzelnen Elemente nicht die Größe ändern und sich die Nav-Bar verschiebt, wenn man drüber hovert*/
 	}
 
 	a:hover{
 		cursor: pointer;
 		background: #2424;
+		border: 2px solid #B8E89C;
 	}
 
 	.leftContainer img {
-		width: 250px;
+		width: 20vw;
 		height: auto;
+		margin-left: 1vw;
 	}
 
 	.rightContainer img {

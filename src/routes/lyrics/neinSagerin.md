@@ -15,6 +15,7 @@ Ein Grabscher zu viel, zu lang schon mitgemacht
 
 Ich bin die, die nicht jetzt, aber als letztes lacht 
 
+<br />
 
 Oh man, schon wieder so ne scheiß Situation 
 
@@ -32,6 +33,7 @@ Das wird MANN ja wohl noch tun dürfen
 
 Wann sind denn alle so zimperlich geworden 
 
+<br />
 
 Ich will nicht viel nur ein sicheres Gefühl 
 
@@ -55,6 +57,7 @@ Viel zu viele Kerle habe ich schon davonkommen lassen, werd ab jetzt nur noch eu
 
 Indem ich auf euch zeig, durchbreche ich den Kreis 
 
+<br />
 
 Oh man, schon wieder so ne scheiß Situation 
 
@@ -66,6 +69,7 @@ Endlich raus endlich weg von hier
 
 Endlich raus endlich weg von dir 
 
+<br />
 
 bin einer dieser Frauen, die wagen Nein zu sagen 
 

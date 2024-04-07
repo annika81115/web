@@ -106,14 +106,18 @@
 
   .boxGreen {
     background-color: #B8E89C;
+    border: 2px solid #B8E89C;
+
   }
 
   .boxPink {
     background-color: #d13caa;
+    border: 2px solid #d13caa;
   }
 
   .boxPurple {
     background-color: #b77beb;
+    border: 2px solid #b77beb;
   }
 
   .boxGreen:hover {
@@ -122,10 +126,12 @@
 
   .boxPink:hover {
     background-color: #c52e9e;
+    border: 2px solid #B8E89C;
   }
 
   .boxPurple:hover {
     background-color: #ab65e8;
+    border: 2px solid #B8E89C;
   }
 
   a {

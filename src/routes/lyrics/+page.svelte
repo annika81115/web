@@ -33,4 +33,8 @@
 		top: 7vw;
 		width: 65vw;
 	}
+
+	a:hover {
+		color: #B8E89C;
+	}
 </style>

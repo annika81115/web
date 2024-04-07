@@ -20,7 +20,6 @@
 
 	a {
 		color: #FFF;
-		text-decoration: none;
 		padding: 0.5vh 0.5vw; 
         border-radius: 5px; 
 	}
@@ -28,5 +27,6 @@
 	a:hover {
 		cursor: pointer;
 		background: #2424;
+		border: 2px solid #B8E89C;
 	}
 </style>

@@ -16,8 +16,11 @@
             Message:<br>
             <textarea name="body" rows="5" cols="30" placeholder="Your Message"></textarea><br>
             <input type="submit" value="Send">
+            <p>Achtung: du wirst in dein eigenes Mailprogramm weitergeleitet.</p>
         </form>
     </div>
+
+    <img src="contact.jpg">
 </div>
 
 <Footer />
@@ -26,12 +29,27 @@
     .container {
         position: absolute;
         top: 5vw;
+        margin-left: auto; /* Zentriert das Formular horizontal */
+        margin-right: auto; /* Zentriert das Formular horizontal */
+        text-align: center;
     }
 
     .formular {
-        position: absolute;
-        top: 5vw;
+        position: relative;
         width: 35vw;
-        padding: 10px;
+        padding: 5px;
+        margin-left: auto; /* Zentriert das Formular horizontal */
+        margin-right: auto; /* Zentriert das Formular horizontal */
+        text-align: center;
+    }
+
+    img {
+        width: 40vw;
+        height: 35vh;
+        display: block;
+        border-radius: 50px;
+        overflow: hidden;
+        object-fit: cover;
+        border: 2px solid #B8E89C;
     }
 </style>

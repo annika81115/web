@@ -1,6 +1,8 @@
 ---
 title: Swipe
 caption: kurzer Teaser
+image: "swipe.jpg"
+image2: "swipe2.jpg"
 ---
 
 Mein stärkster Muskel kommt vom Swipen
@@ -23,6 +25,7 @@ Kurz am Handy hängen geblieben
 
 Was wollt ich nochmal vom Leben
 
+<br />
 
 Stranges Ding
 
@@ -32,7 +35,7 @@ Be Real und Real Life
 
 Bleib für Content dabei
 
-
+<br />
 
 Refrain
 
@@ -44,10 +47,11 @@ Keine Zeit für dein Leid, weil mein Handy nach mir schreit
 
 Bis ans Ende aller Zeit, tu ich alles für den swipe
 
+<br />
 
 Swipswipeswipeswipe alles für den swipe
 
-
+<br />
 
 Ich reich den Daumen
 

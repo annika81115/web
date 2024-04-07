@@ -8,8 +8,13 @@
 
 <article>
 	<h1>{data.title}</h1>
-	{data.caption}
+	{#if data.image}
+		<img src="{"/src/routes/lyrics/images/" + data.image}">
+	{/if}
 	<svelte:component this={data.content} />
+	{#if data.image2}
+		<img src="{"/src/routes/lyrics/images/" + data.image2}">
+	{/if}
 </article>
 
 <Footer />
@@ -25,4 +30,13 @@
 	  	z-index: 500;
 	}
 
+	img {
+		width: 100%;
+	    height: 40vh;
+	    display: block;
+	    border-radius: 50px;
+	    overflow: hidden;
+	    object-fit: cover;
+	    border: 2px solid #B8E89C;
+	}
 </style>

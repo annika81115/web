@@ -17,6 +17,7 @@ Ich wart noch auf den Räumungsbefehl
 
 Ich schaff es einfach nicht von alleine zu gehen
 
+<br>
 
 Und dann bau ich mir ein Haus
 
@@ -26,6 +27,7 @@ Und dann bau ich mir ein Haus
 
 Ohne Tür, denn alle sind willkommen hier
 
+<br>
 
 Meine Füße wolln nicht mehr ruhn
 
@@ -39,6 +41,7 @@ Während sie (atmen) gestern noch dösend lagen
 
 Wollen sie (atmen) mich heute ans Ende der Welt tragen
 
+<br>
 
 Und dann lauf ich ohne Schuh
 
@@ -50,9 +53,11 @@ und hab dabei
 
 Nicht mal eine einzige Socke an
 
+<br>
 
 dadabdaabdaaaadabdadadaaaa - dübübdübüdüb
 
+<br>
 
 Ich bin ihm so leid
 
@@ -68,6 +73,7 @@ Mein Kleid ist mir zu klein
 
 Mein wahres Ich geht darin ein 
 
+<br>
 
 Doch um das Feuer werd ich tanzen
 
@@ -85,8 +91,11 @@ Und hast du Lust, komm doch dazu
 
 Dann haben wir beide unsere Ruh
 
+<br>
+
 dadabdaabdaaaadabdadadaaaa - dübübdübüdüb
 
+<br>
 
 Und dann tanzt du den wildesten Tanz und merkst dabei,
 

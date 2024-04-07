@@ -17,6 +17,7 @@ wirklich schlimm wärs erst wärs andersherum
 
 warum klingen solche weisheiten in meinem ohr so dumm 
 
+<br>
 
 meine katze fragt mich mittlerweile schon wann kommt deine scheiß-stimme endlich raus aus diesem telefon 
 
@@ -30,9 +31,14 @@ stimme und geruch bleiben weiter weg
 
 dabei hätt ich nichts andres lieber in meinem bett 
 
+<br>
 
 doch so ist sie nun mal die Liebe ham' sie gesagt doch was bringt mir diese Liebe, wenn ich dich nicht hab selbst die hummeln in meim hintern tragen mich nicht zu dir summen was von work life balance streiken ab vier tja, dann ich eben mit den schmetterlingen in meinem bauch mein erstes Bier 
 
+<br>
+
 Und falls du mich doch suchst 
+
+<br>
 
 du findest mich einsam im einklang mit mei'm allein-sein, betrunken, summend ohne dich hier
