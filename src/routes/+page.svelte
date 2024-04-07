@@ -12,11 +12,7 @@
         <h2>Sekt Spät What?</h2>
       </a>
     </div>
-    <div class="boxGreen" id="box2">
-      <a href="/korkenknallen">
-        <h2>Hörst du die Korken? Sie knallen im Chor!</h2>
-      </a>
-    </div>
+    <a href="https://youtu.be/f-LucaMpEw8?si=FodWluTfKacIo3C1" class="boxGreen" id="box2" />
     <div class="boxPink" id="box3">
       <a href="/aboutJune">
         <h2>About June</h2>
@@ -34,7 +30,7 @@
     </div>
     <div class="boxPink" id="box6">
       <a href="/contact">
-        <h2>Flaschenpost</h2>
+        <h2>Kontakt</h2>
       </a>
     </div>
   </div>
@@ -107,7 +103,11 @@
   .boxGreen {
     background-color: #B8E89C;
     border: 2px solid #B8E89C;
-
+    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Montserrat';
   }
 
   .boxPink {
@@ -122,6 +122,14 @@
 
   .boxGreen:hover {
     background-color: #8bda5e;
+  }
+
+  .boxGreen:after {
+    content: "Hörst du die Korken?";
+  }
+
+  .boxGreen:hover:after {
+    content: "Sie knallen im Chor!";
   }
 
   .boxPink:hover {

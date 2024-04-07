@@ -16,7 +16,7 @@
             Message:<br>
             <textarea name="body" rows="5" cols="30" placeholder="Your Message"></textarea><br>
             <input type="submit" value="Send">
-            <p>Achtung: du wirst in dein eigenes Mailprogramm weitergeleitet.</p>
+            <p>Du wirst in dein eigenes Mailprogramm weitergeleitet.</p>
         </form>
     </div>
 

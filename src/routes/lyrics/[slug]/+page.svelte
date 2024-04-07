@@ -6,7 +6,7 @@
 
 <Navbar />
 
-<article>
+<article class="mdContent">
 	<h1>{data.title}</h1>
 	{#if data.image}
 		<img src="{"/src/routes/lyrics/images/" + data.image}">

@@ -94,9 +94,6 @@ img {
  @media screen and (max-width: 900px) {
     .postContainer {
       	width: 100%; /* Vollständige Breite für kleinere Bildschirme */
-    	margin-left: auto; /* Zentriert das Formular horizontal */
-   		margin-right: auto; /* Zentriert das Formular horizontal */
-    	text-align: center;
     }
 
     .postBox {
