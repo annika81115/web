@@ -148,7 +148,7 @@
   }
 
   /* Media Query für kleinere Bildschirme */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 910px) {
     .container {
       flex-direction: column; /* Vertikale Anordnung der Elemente */
       align-items: center; /* Horizontale Zentrierung */
