@@ -24,9 +24,9 @@
     {/each}
 	</div>
 	<div class="imageContainer">
-	  	<img src="/lyrics.jpg">
-	  	<img src="/lyrics2.jpg">
-	  	<img src="/lyrics3.jpg">
+	  	<img src="/lyrics.jpg" alt="June mit Ukulele">
+	  	<img src="/lyrics2.jpg" alt="June mit Ukulele">
+	  	<img src="/lyrics3.jpg" alt="June">
 	</div>
 </div>
 

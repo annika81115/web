@@ -2,10 +2,10 @@
 
 <div class="container">
   <div class="imageContainer">
-    <img class="bigImage" src="/pic_home.JPG" alt="Beispielbild">
+    <img class="bigImage" src="/pic_home.JPG" alt="June">
     <!-- setzt das Logo als Schriftzug über das Bild --> 
     <div class="overlay">
-      <img src="/schrift.png">
+      <img src="/schrift.png" alt="SekptSpätStück">
     </div>
   </div>
   <div class="boxContainer">
@@ -14,7 +14,7 @@
         <h2>Sekt Spät What?</h2>
       </a>
     </div>
-    <a href="https://youtu.be/f-LucaMpEw8?si=FodWluTfKacIo3C1" class="boxGreen" id="box2" />
+    <a href="https://youtu.be/f-LucaMpEw8?si=FodWluTfKacIo3C1" class="boxGreen" id="box2"> </a>
     <div class="boxPink" id="box3">
       <a href="/aboutJune">
         <h2>About June</h2>

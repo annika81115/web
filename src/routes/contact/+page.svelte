@@ -21,7 +21,7 @@
         </form>
     </div>
 
-    <img src="contact.jpg">
+    <img src="contact.jpg" alt="durch die Gegend springende June">
 </div>
 
 <Footer />

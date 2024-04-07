@@ -12,12 +12,12 @@
 	<h1>{data.title}</h1>
 	<!-- prüft, ob ein Bild angegeben wurde und fügt es dann, wenn es definiert wurde, hinzu. Bild muss im 'images' Ordner liegen --> 
 	{#if data.image}
-		<img src="{"/src/routes/lyrics/images/" + data.image}">
+		<img src="{"/src/routes/lyrics/images/" + data.image}" alt="passendes Bild zu den Lyrics">
 	{/if}
 	<svelte:component this={data.content} />
 	<!-- prüft, ob ein Bild angegeben wurde und fügt es dann, wenn es definiert wurde, hinzu --> 
 	{#if data.image2}
-		<img src="{"/src/routes/lyrics/images/" + data.image2}">
+		<img src="{"/src/routes/lyrics/images/" + data.image2}" alt="passendes Bild zu den Lyrics">
 	{/if}
 </article>
 

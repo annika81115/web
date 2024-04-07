@@ -3,7 +3,7 @@
 <div class="nav">
 	<div class="leftContainer">
 		<a href="/ "> 
-			<img src="/home.png">
+			<img src="/home.png" alt="SektSpätStück">
 		</a>
 		<a href="/sektSpätWhat">Sekt Spät What?</a>
 		<a href="/aboutJune">About June</a>
@@ -11,19 +11,19 @@
 	</div>
 	<div class="rightContainer">
 		<a href="https://www.youtube.com/@sektspatstuck6908"> 
-			<img src="/icons/yt.png">
+			<img src="/icons/yt.png" alt="YouTube Icon">
 		</a>
 		<a href="https://open.spotify.com/artist/5DeKxh1EpLz9xYQXwvRSJr"> 
-			<img src="/icons/spotify.png">
+			<img src="/icons/spotify.png" alt="Spotify Icon">
 		</a>
 		<a href="https://soundcloud.com/sktsptst"> 
-			<img src="/icons/soundcloud.png">
+			<img src="/icons/soundcloud.png" alt="Soundcloud Icon">
 		</a>
 		<a href="https://www.instagram.com/sektspaetstueck/"> 
-			<img src="/icons/instagram.png">
+			<img src="/icons/instagram.png" alt="instagram Icon">
 		</a>
 		<a href="https://www.tiktok.com/@sektspaetstueck"> 
-			<img src="/icons/tiktok.png">
+			<img src="/icons/tiktok.png" alt="Tiktok Icon">
 		</a>
 	</div>
 </div>

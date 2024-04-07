@@ -59,11 +59,6 @@
 
 
 <style>
-	.container {
-        position: absolute;
-        top: 5vw;
-    }
-
     .impressum {
     	position: absolute;
         top: 5vw;

@@ -5,7 +5,6 @@
 	/* nachfolgend werden die Informationen aus den Markdown-Dateien hinzugefügt */
 	export let title; 
 	export let image;
-	export let content;
 </script>
 
 
@@ -15,7 +14,7 @@
 	<h1>{title}</h1>
 
 		<!-- setzt das Bild unter dem angegebenen Pfad ein -->
-		<img src={image}> 
+		<img src={image} alt="June"> 
 
 	<p class="mdContent">
 		<slot />
