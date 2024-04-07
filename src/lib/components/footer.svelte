@@ -1,3 +1,4 @@
+<!-- definiert eine Fußzeile mit der Verlinkung ins Impressum und zur Kontakt-Seite -->
 <div>
 	<footer>
 		<a href="/impressum">Impressum</a>
@@ -24,6 +25,7 @@
         border-radius: 5px; 
 	}
 
+	/* ersllt einen Hintergrund, wenn man mit dem Pointer auf dem Link ist */
 	a:hover {
 		cursor: pointer;
 		background: #2424;

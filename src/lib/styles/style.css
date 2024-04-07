@@ -1,3 +1,4 @@
+/* definiert die Body Eigenschaften für das gesamte Projekt und setzt dabei das Hintergrundbild */
 body {
 	background-image: url('/background.png');
 	background-size: cover;

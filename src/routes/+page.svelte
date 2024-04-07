@@ -1,7 +1,9 @@
-<!-- YourComponent.svelte -->
+<!-- Definieren der Home bzw. der '/ ' Seite  als Landingpage -->
+
 <div class="container">
   <div class="imageContainer">
-    <img class="big" src="/pic_home.JPG" alt="Beispielbild">
+    <img class="bigImage" src="/pic_home.JPG" alt="Beispielbild">
+    <!-- setzt das Logo als Schriftzug über das Bild --> 
     <div class="overlay">
       <img src="/schrift.png">
     </div>
@@ -20,7 +22,7 @@
     </div>
     <div class="boxPurple" id="box4">
       <a href="/lyrics">
-        <h2>Texte, die so schön prikeln auf der Zunge</h2>
+        <h2>Lyrics</h2>
       </a>
     </div>
     <div class="boxPurple" id="box5">
@@ -37,39 +39,38 @@
 </div>
 
 <style>
-  /* CSS-Stil für den Container */
   .container {
     display: flex;
-    flex-direction: row; /* Horizontale Anordnung der Elemente */
-    height: 90vh; /* Höhe des gesamten Fensters */
-    padding: 20px; /* Abstand um den Container herum */
+    flex-direction: row;
+    height: 90vh;
+    padding: 20px;
   }
 
   .imageContainer {
-    width: 50%; /* Bildcontainer nimmt die Hälfte der Breite ein */
+    width: 50%;
     position: relative;
   }
 
-  .big {
+  .bigImage {
     width: 100%;
     height: 90vh;
     display: block;
     border-radius: 50px;
     overflow: hidden;
-    object-fit: cover; /* Bild wird in den Container eingepasst */
+    object-fit: cover;
   }
 
   .overlay {
-    position: absolute; /* Absolute Positionierung relativ zum Bildcontainer */
-    bottom: 0; /* Unten ausrichten */
-    left: 0; /* Links ausrichten */
-    width: 100%; /* Vollständige Breite */
-    background-color: rgba(184, 232, 156, 1); /* Halbtransparenter Hintergrund */
-    color: white; /* Textfarbe */
-    padding: 20px; /* Innenabstand */
-    box-sizing: border-box; /* Berücksichtigt den Padding im Bereich */
-    text-align: center; /* Zentriert den Text horizontal */
-    transform: translateY(-50%); /* Zentriert den Text vertikal */
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    background-color: rgba(184, 232, 156, 1);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transform: translateY(-50%);
   }
 
   .overlay img{
@@ -78,18 +79,19 @@
   }
 
   .boxContainer {
-    width: 50%; /* Boxencontainer nimmt die Hälfte der Breite ein */
+    width: 50%;
     height: 90vh;
     display: flex;
-    flex-wrap: wrap; /* Zeilenumbruch bei Bedarf */
-    justify-content: center; /* Zentriert die Boxen horizontal */
-    gap: 20px; /* Abstand zwischen den Boxen */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
 
+  /* setzt für alle Boxen zur weiteren Navigation die Grundeigenschaften */
   .boxGreen,
   .boxPink,
   .boxPurple {
-    flex: 0 1 calc(33.33% - 20px); /* Setzt die Breite der Boxen auf ein Drittel der Breite des Containers */
+    flex: 0 1 calc(33.33% - 20px);
     text-align: center;
     padding: 20px;
     border-radius: 20px;
@@ -124,10 +126,12 @@
     background-color: #8bda5e;
   }
 
+  /* setzten den Inhalt der Box, damit er diesen beim Hovern verändern kann */
   .boxGreen:after {
     content: "Hörst du die Korken?";
   }
 
+  /* setzte den Text, welcher beim rüber Hovern angezeigt werden soll */
   .boxGreen:hover:after {
     content: "Sie knallen im Chor!";
   }
@@ -142,12 +146,7 @@
     border: 2px solid #B8E89C;
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  /* Media Query für kleinere Bildschirme */
+  /* bei einer Fensterbreite unter 910px werden die Elemnte später untereinander angeordnet */
   @media screen and (max-width: 910px) {
     .container {
       flex-direction: column; /* Vertikale Anordnung der Elemente */

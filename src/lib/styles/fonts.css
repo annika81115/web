@@ -1,13 +1,15 @@
+/* fügt Kaushan Script als Schriftart hinzu, sodass es überall genutzt werden kann */
 @font-face {
   font-family: 'Kaushan Script';
   src: url('$lib/fonts/KaushanScript.ttf') format('truetype');
-  font-weight: normal; /* Gewicht der Schriftart */
-  font-style: normal; /* Stil der Schriftart */
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* fügt Montserrat als Schriftart hinzu, sodass sie überall genutzt werden kann */
 @font-face {
   font-family: 'Montserrat';
   src: url('$lib/fonts/Montserrat-Regular.ttf') format('truetype');
-  font-weight: normal; /* Gewicht der Schriftart */
-  font-style: normal; /* Stil der Schriftart */
+  font-weight: normal;
+  font-style: normal;
 }

@@ -1,3 +1,4 @@
+/* erstellen einer Api, welche die Posts sortiert SvelteKit bereitstellt*/
 import { fetchMarkdownPosts } from '$lib/utils';
 import { json } from '@sveltejs/kit';
 

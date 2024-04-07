@@ -1,4 +1,5 @@
-<!-- YourComponent.svelte -->
+<!-- definiert die List mit allen verfügbaren Songs, aus allen Markdown-Dateien -->
+
 <script>
   export let data;
   import Navbar from "$lib/components/Navbar.svelte"
@@ -11,6 +12,7 @@
   <h1>Lyrics</h1>
 
   <div class="postContainer">
+    <!-- für jede neue Markdwon/ Lyrics wird ein Element mit entsprechender Verlinkug erstellt --> 
     {#each data.posts as post}
       <div class="postBox">
         <h2>
@@ -25,7 +27,6 @@
 	  	<img src="/lyrics.jpg">
 	  	<img src="/lyrics2.jpg">
 	  	<img src="/lyrics3.jpg">
-
 	</div>
 </div>
 
@@ -37,6 +38,10 @@
     position: absolute;
     top: 5vw;
     width: 65vw;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 
   .postContainer {
@@ -91,24 +96,26 @@ img {
     border: 2px solid #B8E89C;
 }
 
+
+/* definiert, die Eigenschaften bei einer Fenstergröße kleiner als 900px */
  @media screen and (max-width: 900px) {
     .postContainer {
-      	width: 100%; /* Vollständige Breite für kleinere Bildschirme */
+      	width: 100%;
     }
 
     .postBox {
-      width: 50%; /* Breite der Boxen für kleinere Bildschirme anpassen */
+      width: 50%;
       font-size: 15px;
       margin-left: auto;
       margin-right: auto;
     }
 
     .imageContainer {
-      width: 100%; /* Vollständige Breite für kleinere Bildschirme */
+      width: 100%;
     }
 
     img {
-      width: 100%; /* Breite der Bilder für kleinere Bildschirme auf 100% setzen */
+      width: 100%; 
     }
   }
 </style>

@@ -1,3 +1,5 @@
+<!-- definiert die Navigationsleiste mit den links zu den Seiten und den Icons die zu Social Media Plattformen führen -->
+
 <div class="nav">
 	<div class="leftContainer">
 		<a href="/ "> 
@@ -26,6 +28,7 @@
 	</div>
 </div>
 
+<!-- setzt außerdem den backdrop, welcher mit der Navbar zusammen aufgrufen wird-->
 <div class="backdrop" />
 
 
@@ -42,10 +45,11 @@
         right: 0;
         padding: 10px;
         background: #d13caa;
-        z-index: 1000;
+        z-index: 1000; /*sorgt dafür, dass die Navbar immer das oberste Element ist*/
         margin-left: 1vw;
 	}
 
+	/* teilt die navbar in links (für Text) und rechts (für die Icons)*/
 	.leftContainer {
         display: flex;
         flex-direction: row;
@@ -61,10 +65,9 @@
 
 	a{
 		color: #FFF;
-		text-decoration: none;
 		padding: 1vh 1vw; 
 		border-radius: 5px;
-		border: 2px solid #d13caa; /* damit die einzelnen Elemente nicht die Größe ändern und sich die Nav-Bar verschiebt, wenn man drüber hovert*/
+		border: 2px solid #d13caa;
 	}
 
 	a:hover{
@@ -73,22 +76,25 @@
 		border: 2px solid #B8E89C;
 	}
 
+	/*passt das Bild des Logos links an*/
 	.leftContainer img {
 		width: 20vw;
 		height: auto;
 		margin-left: 1vw;
 	}
 
+	/*passt die Icon-Größe an */
 	.rightContainer img {
 		width: 3vw;
 		height: auto;
 	}
 
+	/* definiert den Hintergrund für den Content mit einer leichten Transparenz*/
 	.backdrop {
 		position: fixed;
   		top: 0;
   		width: 65vw;
-  		height: 100vh; /* Höhe der gesamten Seite */
+  		height: 100vh;
   		background-color: rgba(210, 210, 210, 0.5); /* Hintergrundfarbe mit Transparenz */		  
   		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Schatten für Box-Effekt */
   		z-index: -50;

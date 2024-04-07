@@ -1,3 +1,5 @@
+<!-- definiert das allgemeine Layout für alle Seiten --> 
+
 <script>
 	import '$lib/styles/style.css'
 	import '$lib/styles/fonts.css';
@@ -8,8 +10,6 @@
 	<slot></slot>
 </div>
 
-
-
 <style>
 	.app-container{
 		display: flex;
@@ -17,5 +17,4 @@
 		align-items: center;
 		justify-content: center;
 	}
-
 </style>

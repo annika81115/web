@@ -1,3 +1,4 @@
+<!-- definiert die Kontakt-Unterseite mit dem Formular zum schreiben einer Mail -->
 <script>
     import Navbar from "$lib/components/Navbar.svelte"  
     import Footer from "$lib/components/footer.svelte"
@@ -29,8 +30,8 @@
     .container {
         position: absolute;
         top: 5vw;
-        margin-left: auto; /* Zentriert das Formular horizontal */
-        margin-right: auto; /* Zentriert das Formular horizontal */
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
     }
 
@@ -38,8 +39,8 @@
         position: relative;
         width: 35vw;
         padding: 5px;
-        margin-left: auto; /* Zentriert das Formular horizontal */
-        margin-right: auto; /* Zentriert das Formular horizontal */
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
     }
 

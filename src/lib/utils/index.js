@@ -1,3 +1,4 @@
+/* fetcht sich alle Markdown-Dateien aus dem Lyrics-Ordner und gibt alle Posts zurück */
 export const fetchMarkdownPosts = async () => {
 	const allPostFiles = import.meta.glob('/src/routes/lyrics/*.md');
 	const iterablePostFiles = Object.entries(allPostFiles);

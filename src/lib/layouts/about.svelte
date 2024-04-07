@@ -1,7 +1,9 @@
+<!-- setzt das Layout, welches von Markdown-Dateien genutzt werden kann, wenn diese das Layout im Header definieren -->
 <script>
-	import Navbar from "$lib/components/Navbar.svelte"
-	import Footer from "$lib/components/Footer.svelte"
-	export let title;
+	import Navbar from "$lib/components/Navbar.svelte" /* fügt Navigationsleiste hinzu*/
+	import Footer from "$lib/components/Footer.svelte" /*fügt Fußleiste hinzu */
+	/* nachfolgend werden die Informationen aus den Markdown-Dateien hinzugefügt */
+	export let title; 
 	export let image;
 	export let content;
 </script>
@@ -12,7 +14,8 @@
 <div class="content">
 	<h1>{title}</h1>
 
-		<img src={image}>
+		<!-- setzt das Bild unter dem angegebenen Pfad ein -->
+		<img src={image}> 
 
 	<p class="mdContent">
 		<slot />

@@ -1,3 +1,4 @@
+<!-- definiert die Seite des Impressums --> 
 <script>
     import Navbar from "$lib/components/Navbar.svelte"  
     import Footer from "$lib/components/footer.svelte"
