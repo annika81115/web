@@ -1,6 +1,7 @@
 <script>
 	export let data;
 	import Navbar from "$lib/components/Navbar.svelte"
+	import Footer from "$lib/components/Footer.svelte"
 </script>
 
 <Navbar />
@@ -23,11 +24,13 @@
 	</ul>
 </div>
 
+<Footer />
+
 <style>
 	.content {
 		text-align: center;
 		position: absolute;
-		top: 5vw;
+		top: 7vw;
 		width: 65vw;
 	}
 </style>

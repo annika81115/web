@@ -1,6 +1,13 @@
 @font-face {
-  font-family: 'Neoneon';
-  src: url('/lib/fonts/Neoneon.otf') format('opentype');
+  font-family: 'Kaushan Script';
+  src: url('$lib/fonts/KaushanScript.ttf') format('truetype');
+  font-weight: normal; /* Gewicht der Schriftart */
+  font-style: normal; /* Stil der Schriftart */
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('$lib/fonts/Montserrat-Regular.ttf') format('truetype');
   font-weight: normal; /* Gewicht der Schriftart */
   font-style: normal; /* Stil der Schriftart */
 }

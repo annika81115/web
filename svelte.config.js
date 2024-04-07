@@ -18,7 +18,7 @@ const config = {
 		mdsvex({
 			extensions: ['.md'],
 			layout: {
-				aboutJune: 'src/lib/layouts/aboutJune.svelte'
+				lyrics: 'src/lib/layouts/lyrics.svelte',
 				about: 'src/lib/layouts/about.svelte'
 			}
 		})

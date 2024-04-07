@@ -1,5 +1,6 @@
 <script>
 	import Navbar from "$lib/components/Navbar.svelte"
+	import Footer from "$lib/components/Footer.svelte"
 	export let data;
 </script>
 
@@ -10,6 +11,8 @@
 	{data.caption}
 	<svelte:component this={data.content} />
 </article>
+
+<Footer />
 
 <style>
 	article {

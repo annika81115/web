@@ -1,6 +1,7 @@
 ---
 title: About June
 layout: about
+image: "aboutJune.jpg"
 ---
 
 Natalie Barth wurde kurz nach der Wende in Thüringen geboren. In Gewalt mündende Überforderung und der ständige Kampf mit den Baseballschläger-90ern der rechtsextremen Szene prägten ihr Aufwachsen. Im Alter von 14 Jahren begann sie sich dagegen zu engagieren. Als Ausgleich zu ihrem Einsatz bei Antifa und interschulischen Protest-Initiativen half ihr die Musik über die konfliktreichen Jugendjahre hinweg. Sie gründete als Keyboarderin und Sängerin die Band “The Pinky Brainers". 

@@ -1,0 +1,15 @@
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  font-family: 'Kaushan Script';
+}
+
+a {
+  text-decoration: none;
+}
+
+.mdContent {
+  font-size: 17px;
+  font-family: 'FFF Tusj';
+}

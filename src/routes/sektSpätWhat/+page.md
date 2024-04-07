@@ -1,9 +1,10 @@
 ---
-title: SektspätWhat?!
+title: SektSpätWhat?!
 layout: about
+image: "sektSpaetWhat.JPG"
 ---
 
-Spritzig, sprudelig, schonungslos - SektSpätStück.
+**Spritzig, sprudelig, schonungslos - SektSpätStück.**
 
 Klingt manchmal mehr nach französischen Chansons und dann wieder wie Nina Hagen, die Tango im Theater tanzt. Die Wortakrobatin June Till August faucht und mauzt in ihren Liedern von Selbstbefreiung und Abgrenzung. 
 

@@ -4,5 +4,6 @@ body {
 	background-position: center center;
     background-attachment: fixed;
 	color: #333;
-	font-family: sans-serif;
+	font-family: 'Montserrat';
+	font-size: 17px;
 }

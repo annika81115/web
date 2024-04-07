@@ -14,7 +14,7 @@
     </div>
     <div class="boxGreen" id="box2">
       <a href="/korkenknallen">
-        <h2>Hörst du die Korken? Sie knallen im Chor</h2>
+        <h2>Hörst du die Korken? Sie knallen im Chor!</h2>
       </a>
     </div>
     <div class="boxPink" id="box3">
